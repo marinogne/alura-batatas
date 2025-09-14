@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Mundo da Batata</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/logo.png" class="nav-img" loading="lazy" alt="Logo Mundo da Batata">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio-batata">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria-batata">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato-batata">Contato</a></li>
+            </ul>
+
+            <div id="acessibilidade-batata" class="menu-acessibilidade">
+                <button id="botao-acessibilidade-batata" class="btn btn-primary rotacao-botao fw-bold">Acessibilidade</button>
+                <div id="opcoes-acessibilidade-batata" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte-batata" class="btn btn-primary fw-bold">A +</button>
+                    <button id="diminuir-fonte-batata" class="btn btn-primary fw-bold">A -</button>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container my-5">
+
+        <section id="inicio-batata" class="my-5">
+            <div class="inicio-fundo-batata d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo-batata">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas ao mundo das</h1>
+                    <img src="img/logo-2.png" class="mb-3" width="563" height="278" loading="lazy" alt="Logo Mundo da Batata">
+                    <a href="#historia-batata" class="btn btn-primary btn-lg botao-inicio-batata fw-semibold">Quero conhecer!</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia-batata" class="my-5 pt-6 secao-batata">
+            <div class="container d-flex align-items-center">
+                <div class="col-4 d-flex justify-content-center">
+                    <img src="img/image (1).jpg" class="rounded-pill" alt="Batata crua" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>O que é a Batata?</h2>
+                    <p class="p-2">A batata é um dos alimentos mais versáteis e consumidos no mundo. Originária da região dos Andes, é cultivada há milhares de anos e pode ser preparada de inúmeras formas: cozida, frita, assada ou em purê. Rica em carboidratos e nutrientes, é base de pratos tradicionais em diversas culturas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria-batata">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria-batata">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/pexels-pixabay-162763.jpg"
+                            class="img-fluid rounded-5" loading="lazy" alt="Batata assada">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/pexels-srb12-1439177.jpg" class="img-fluid rounded-5"
+                            loading="lazy" alt="Batata rústica">
+                    </div>
+                </div>
+                <div class="row mt-4 justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/pexels-valeriya-1893555.jpg" class="img-fluid rounded-5"
+                            loading="lazy" alt="Bata frita temperada">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/topping-comida-cocina-burguer-fastfood.jpg"
+                            class="img-fluid rounded-5" loading="lazy" alt="Batata frita">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato-batata">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario-batata">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome-batata">Nome</label>
+                            <input type="text" id="nome-batata" name="nome-batata" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email-batata">Email</label>
+                            <input type="email" id="email-batata" name="email-batata" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem-batata">Mensagem</label>
+                            <textarea id="mensagem-batata" name="mensagem-batata" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
