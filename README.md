@@ -1,4 +1,4 @@
-https://marinogne.github.io/alura-batatas/
+
 # Site acessível sobre Batatas
 # Sobre
 Refatoração de um site implementando recursos de acessibilidade no html, css e JS.
